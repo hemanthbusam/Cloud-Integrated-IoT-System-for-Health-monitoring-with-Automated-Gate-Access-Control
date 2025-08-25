@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern UI</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+    <!-- Modern Header -->
+    <header class="bg-white shadow-md py-4 px-6 flex justify-between items-center">
+        <h1 class="text-2xl font-bold text-gray-700">Dashboard</h1>
+        <nav>
+            <ul class="flex space-x-4">
+                <li><a href="#" class="text-gray-600 hover:text-blue-500">Home</a></li>
+                <li><a href="#" class="text-gray-600 hover:text-blue-500">About</a></li>
+                <li><a href="#" class="text-gray-600 hover:text-blue-500">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Main Content -->
+    <div class="flex items-center justify-center min-h-screen">
+        <div class="flex space-x-6 p-6 bg-white shadow-lg rounded-2xl">
+            <!-- Track History Card -->
+            <div class="w-64 p-6 bg-blue-500 text-white rounded-lg shadow-md hover:shadow-xl transition">
+                <h2 class="text-xl font-semibold">Track History</h2>
+                <p class="mt-2 text-sm">View Employee Past Attendance Data </p>
+                <a href="/history" class="mt-4 inline-block px-4 py-2 bg-white text-blue-500 font-semibold rounded-lg hover:bg-gray-200">View</a>
+            </div>
+            
+            <!-- Report Card -->
+            <div class="w-64 p-6 bg-green-500 text-white rounded-lg shadow-md hover:shadow-xl transition">
+                <h2 class="text-xl font-semibold">Report</h2>
+                <p class="mt-2 text-sm">View your Employee's Health Screening Report.</p>
+                <a href="/report" class="mt-4 inline-block px-4 py-2 bg-white text-blue-500 font-semibold rounded-lg hover:bg-gray-200">View</a>
+                </div>
+        </div>
+    </div>
+</body>
+</html>
